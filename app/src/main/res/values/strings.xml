@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Musica</string>
+    <string name="forgot_password_message">We just need your registered email address to send you password reset instructions</string>
+</resources>

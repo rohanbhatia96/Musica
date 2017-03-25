@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_effects"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="bhatia.rohan.musica.EffectsActivity">
+
+    <Button
+        android:text="Change playback time"
+        android:textColor="#fff"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnPitch"
+        android:layout_alignStart="@+id/btnPitch"
+        android:layout_marginBottom="27dp"
+        android:id="@+id/btnPlayback" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="End"
+        android:ems="10"
+        android:layout_marginBottom="23dp"
+        android:id="@+id/editText2"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_above="@+id/btnPlayback"
+        android:layout_toRightOf="@+id/editText1"
+        android:layout_toEndOf="@+id/editText1" />
+
+    <Button
+        android:text="Add Reverb"
+        android:textColor="#fff"
+        android:layout_width="100dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/btnReverb"
+        android:layout_below="@+id/btnPitch"
+        android:layout_alignLeft="@+id/btnPitch"
+        android:layout_alignStart="@+id/btnPitch"
+        android:layout_height="80dp" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Start"
+        android:ems="10"
+        android:id="@+id/editText1"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignLeft="@+id/btnPlayback"
+        android:layout_alignStart="@+id/btnPlayback"
+        android:layout_width="180dp" />
+
+    <Button
+        android:text="Play 2"
+        android:textColor="#fff"
+        android:layout_width="100dp"
+        android:id="@+id/btnPlayNew3"
+        android:layout_alignTop="@+id/btnReverb"
+        android:layout_toRightOf="@+id/editText1"
+        android:layout_toEndOf="@+id/editText1"
+        android:layout_height="80sp" />
+
+    <Button
+        android:text="Play 3"
+        android:textColor="#fff"
+        android:layout_width="100dp"
+        android:id="@+id/btnPlayNew2"
+        android:layout_alignBottom="@+id/btnPlayback"
+        android:layout_toRightOf="@+id/editText1"
+        android:layout_toEndOf="@+id/editText1"
+        android:layout_height="80dp" />
+
+    <Button
+        android:text="Change Pitch"
+        android:textColor="#fff"
+        android:id="@+id/btnPitch"
+        android:layout_width="100dp"
+        android:layout_alignTop="@+id/btnPlayNew"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_height="80dp" />
+
+    <Button
+        android:text="Play 1"
+        android:textColor="#fff"
+        android:layout_width="100dp"
+        android:id="@+id/btnPlayNew"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/btnStart"
+        android:layout_alignLeft="@+id/btnPlayNew3"
+        android:layout_alignStart="@+id/btnPlayNew3"
+        android:layout_height="80dp" />
+
+    <Button
+        android:text="Play Original"
+        android:textColor="#fff"
+        android:layout_marginTop="55dp"
+        android:id="@+id/btnStart"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
