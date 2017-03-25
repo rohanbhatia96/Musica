@@ -3,6 +3,7 @@ Karaoke App
 
 Karaoke app. Scores are calculated by comparing FFT Transformations of the recorded sound and original music.
 Certain effecs can also be added to the recorded sound.
+Users can challenge other users too.
 
 ![screenshot_20161205-085743](https://cloud.githubusercontent.com/assets/20585043/24321344/49f12ec2-1170-11e7-9eec-f683a7bba1df.png)
 ![screenshot_20161205-085750](https://cloud.githubusercontent.com/assets/20585043/24321345/49f87b96-1170-11e7-86a3-8cbe81a8ab11.png)
