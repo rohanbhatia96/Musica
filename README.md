@@ -1,5 +1,5 @@
 # Musica
-Karaoke App
+Android Karaoke App
 
 Karaoke app. Scores are calculated by comparing FFT Transformations of the recorded sound and original music.
 Certain effecs can also be added to the recorded sound.
